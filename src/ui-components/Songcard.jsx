@@ -12,7 +12,9 @@ import {
   mergeVariantsAndOverrides,
 } from "./utils";
 import { Flex, Image, Text, View } from "@aws-amplify/ui-react";
-import { Button as ButtonCustom } from "./Button";
+import {
+  Button 
+ } from '../ui-components';
 export default function Songcard(props) {
   const { overrides: overridesProp, ...rest } = props;
   const variants = [
@@ -127,7 +129,7 @@ export default function Songcard(props) {
           children="River Song"
           {...getOverrideProps(overrides, "Song Title")}
         ></Text>
-        <ButtonCustom
+        <Button
           display="none"
           gap="10px"
           direction="column"
@@ -141,7 +143,7 @@ export default function Songcard(props) {
           icon="True"
           hover="True"
           {...getOverrideProps(overrides, "Button")}
-        ></ButtonCustom>
+        ></Button>
       </Flex>
       <Flex
         gap="61px"
