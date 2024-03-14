@@ -1,0 +1,13 @@
+{
+  "resourceName": "s3thepineappleprojectstorage30e931dc",
+  "bucketName": "the-pineapple-project-storage-30e931dc",
+  "policyUUID": "b8871d73",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "READ",
+    "CREATE_AND_UPDATE"
+  ]
+}

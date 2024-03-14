@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-thepineappleproject-staging-105520-authRole",
+      "UnauthRoleArn": "arn:aws:iam::469213792855:role/amplify-thepineappleproject-staging-105520-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::469213792855:role/amplify-thepineappleproject-staging-105520-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-thepineappleproject-staging-105520-deployment",
+      "UnauthRoleName": "amplify-thepineappleproject-staging-105520-unauthRole",
+      "StackName": "amplify-thepineappleproject-staging-105520",
+      "StackId": "arn:aws:cloudformation:us-east-1:469213792855:stack/amplify-thepineappleproject-staging-105520/b00ada60-decc-11ee-9bc5-0ebf5feb1563",
+      "AmplifyAppId": "d13vwy8d6ahgst"
+    },
+    "categories": {
+      "auth": {
+        "ThePineappleProject": {}
+      },
+      "storage": {
+        "s3thepineappleprojectstorage30e931dc": {}
+      }
+    }
+  }
+}
