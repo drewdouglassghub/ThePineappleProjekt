@@ -1,15 +1,15 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-thepineappleproject-staging-105520-authRole",
-      "UnauthRoleArn": "arn:aws:iam::469213792855:role/amplify-thepineappleproject-staging-105520-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::469213792855:role/amplify-thepineappleproject-staging-105520-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-thepineappleproject-staging-105520-deployment",
-      "UnauthRoleName": "amplify-thepineappleproject-staging-105520-unauthRole",
-      "StackName": "amplify-thepineappleproject-staging-105520",
-      "StackId": "arn:aws:cloudformation:us-east-1:469213792855:stack/amplify-thepineappleproject-staging-105520/b00ada60-decc-11ee-9bc5-0ebf5feb1563",
-      "AmplifyAppId": "d13vwy8d6ahgst"
+      "AuthRoleName": "amplify-thepineappleprojekt-staging-172847-authRole",
+      "UnauthRoleArn": "arn:aws:iam::469213792855:role/amplify-thepineappleprojekt-staging-172847-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::469213792855:role/amplify-thepineappleprojekt-staging-172847-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-thepineappleprojekt-staging-172847-deployment",
+      "UnauthRoleName": "amplify-thepineappleprojekt-staging-172847-unauthRole",
+      "StackName": "amplify-thepineappleprojekt-staging-172847",
+      "StackId": "arn:aws:cloudformation:us-east-2:469213792855:stack/amplify-thepineappleprojekt-staging-172847/fc3429d0-e095-11ee-9a74-065d30f11237",
+      "AmplifyAppId": "d13p118kzlsw7s"
     },
     "categories": {
       "auth": {

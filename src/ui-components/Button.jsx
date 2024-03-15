@@ -12,9 +12,7 @@ import {
   mergeVariantsAndOverrides,
 } from "./utils";
 import Ionheadset from "./Ionheadset";
-
 import { Flex, Text } from "@aws-amplify/ui-react";
-
 export default function Button(props) {
   const { overrides: overridesProp, ...rest } = props;
   const variants = [
@@ -30,23 +28,23 @@ export default function Button(props) {
     {
       overrides: {
         "ion:headset": {},
+        "Listen Now": { color: "rgba(28,29,30,1)" },
+        "Frame 39": {},
+        Button: {
+          padding: "18px 0px 18px 0px",
+          backgroundColor: "rgba(236,227,7,1)",
+        },
+      },
+      variantValues: { property1: "Hover_V1", icon: "True", hover: "True" },
+    },
+    {
+      overrides: {
+        "ion:headset": {},
         "Listen Now": {},
         "Frame 39": {},
         Button: {},
       },
       variantValues: { property1: "Default2", icon: "False", hover: "False" },
-    },
-    {
-      overrides: {
-        "ion:headset": {},
-        "Listen Now": { color: "rgba(28,29,30,1)" },
-        "Frame 39": {},
-        Button: {
-          padding: "18px 0px 18px 0px",
-          backgroundColor: "rgba(82,227,15,1)",
-        },
-      },
-      variantValues: { property1: "White", icon: "False", hover: "False" },
     },
     {
       overrides: {
@@ -67,10 +65,10 @@ export default function Button(props) {
         "Frame 39": {},
         Button: {
           padding: "18px 0px 18px 0px",
-          backgroundColor: "rgba(236,227,7,1)",
+          backgroundColor: "rgba(82,227,15,1)",
         },
       },
-      variantValues: { property1: "Hover_V1", icon: "True", hover: "True" },
+      variantValues: { property1: "White", icon: "False", hover: "False" },
     },
   ];
   const overrides = mergeVariantsAndOverrides(

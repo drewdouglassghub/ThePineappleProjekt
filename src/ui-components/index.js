@@ -7,10 +7,13 @@
 export { default as AnimatedIcon } from "./AnimatedIcon";
 export { default as Antdesigntwittercirclefilled } from "./Antdesigntwittercirclefilled";
 export { default as Button } from "./Button";
+export { default as Home } from "./Home";
 export { default as Icoutlinetiktok } from "./Icoutlinetiktok";
 export { default as Ionheadset } from "./Ionheadset";
 export { default as Ionlogoyoutube } from "./Ionlogoyoutube";
 export { default as Mdispotify } from "./Mdispotify";
+export { default as Media } from "./Media";
+export { default as Music } from "./Music";
 export { default as Navlink } from "./Navlink";
 export { default as Riinstagramline } from "./Riinstagramline";
 export { default as Songcard } from "./Songcard";

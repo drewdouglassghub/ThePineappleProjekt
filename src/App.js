@@ -1,16 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import { 
+  AnimatedIcon,
+  Antdesigntwittercirclefilled,
+  Button,
+  Home,
+  Icoutlinetiktok,
+  Ionheadset,
+  Ionlogoyoutube,
+  Mdispotify,
+  Media,
+  Music,
+  Navlink,
+  Riinstagramline,
+  Songcard,
+  Uilfacebook,
+  studioTheme } from './ui-components';
 import { Amplify } from 'aws-amplify';
 import awsconfig from './aws-exports';
 import "@aws-amplify/ui-react/styles.css";
 Amplify.configure(awsconfig);
 
 function App() {
+
+  
   return (
     <div className="App">
-      <header className="App-header">
-          <App />
-      </header>
+      <Home></Home>
     </div>
   );
 }
